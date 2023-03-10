@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    
+    <section>
+      <h1>Welcome to the PokeMaker!</h1>
+    <form id="post-form">
+      <label for="post-FavPokemon">Name a Pokemon</label>
+      <input id="post-FavPokemon">
+      <label for="post-level">Whats it's level? ( 1 - 100 )</label>
+      <input id="post-level">
+
+      <button id="create" type="submit">Add Pokemon</button>
+
+
+    </form>
+    </section>
+
+    <section>
+      <form id="put-form">
+        <label for="levelUp">What Pokemon do you want to level up by 5? (Takes in Name) </label>
+        <input id="levelUp">
+        <button>LEVEL UP</button>
+
+      </form>
+
+    </section>
+    
+    <section>
+
+      <form id="delete-form">
+        <label for="deletePoke">What Pokemon do you want to take off your team?</label>
+        <input id="deletePoke">
+        <button>Remove Pokemon</button>
+
+
+      </form>
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
